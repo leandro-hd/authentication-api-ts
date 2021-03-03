@@ -4,6 +4,8 @@ import bcrypt from 'bcryptjs';
 
 export interface IUser extends mongoose.Document {
   password: String;
+  passwordResetToken: String;
+  passwordResetExpires: Date;
 }
 
 const UserSchema = new mongoose.Schema({
@@ -24,6 +26,14 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
+    select: false
+  },
+  passwordResetToken: {
+    type: String,
+    select: false
+  },
+  passwordResetExpires: {
+    type: Date,
     select: false
   },
   createdAt: {

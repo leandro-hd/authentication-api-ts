@@ -26,6 +26,8 @@ class UserController {
     };
 
     const user = await User.create(request.body);
+
+    user.password = undefined;
     
     return response.status(201).json(user);
   }

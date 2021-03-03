@@ -35,6 +35,8 @@ class AuthController {
     const token = jwt.sign({ id: user.id }, authConfig.secret, {
       expiresIn: 86400
     });
+
+    user.password = undefined;
    
     return response.status(201).json({user, token});
   }
