@@ -1,12 +1,14 @@
 import path from 'path';
 import nodemailer from 'nodemailer';
 import hbs from 'nodemailer-express-handlebars'
-import { host, port, user, pass } from '../config/mail.json';
 
 const transport = nodemailer.createTransport({
-  host,
-  port,
-  auth: { user, pass }
+  host: process.env.HOST,
+  port: process.env.PORT_MAIL,
+  auth: {
+    user: process.env.USER,
+    pass: process.env.pass
+  }
 });
 
 transport.use('compile', hbs({

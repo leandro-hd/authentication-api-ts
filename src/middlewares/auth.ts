@@ -1,5 +1,4 @@
 import jwt from 'jsonwebtoken';
-import data from '../config/auth.json';
 import { NextFunction, Request, Response } from 'express';
 
 export default function authMiddleware(request: Request, response: Response, next: NextFunction) {
@@ -21,9 +20,9 @@ export default function authMiddleware(request: Request, response: Response, nex
     return response.status(401).json({Unauthorized: 'Token malformatted'})
   }
 
-  const authConfig = data;
+  const authConfig = process.env.SECRET;
 
-  jwt.verify(token, authConfig.secret, (err, decoded) => {
+  jwt.verify(token, authConfig, (err, decoded) => {
     if (err) {
       return response.status(401).json({Unauthorized: 'Token invalid'})
     }

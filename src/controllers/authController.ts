@@ -3,7 +3,6 @@ import { User } from '../models/user';
 import * as yup from 'yup';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import data from '../config/auth.json';
 
 class AuthController {
   async auth( request: Request, response: Response) {
@@ -30,9 +29,9 @@ class AuthController {
       return response.status(400).json('Invalid password!');
     }
 
-    const authConfig = data;
+    const authConfig = process.env.SECRET;
 
-    const token = jwt.sign({ id: user.id }, authConfig.secret, {
+    const token = jwt.sign({ id: user.id }, authConfig, {
       expiresIn: 86400
     });
 
