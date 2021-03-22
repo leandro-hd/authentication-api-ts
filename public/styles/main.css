@@ -1,0 +1,30 @@
+:root {
+  --color-background: #FF914D;
+  --color-primary: #FFFFFF;
+  --color-secondary: #000000;
+  --color-input-background: #DDDDDD;
+  --color-button-primary: #5CB85C;
+  --color-button-secondary: #007BFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body, input {
+  font: 400 1rem Nunito;
+  color: var(--color-text-secondary);
+}
