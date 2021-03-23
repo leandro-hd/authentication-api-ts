@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar uma conta</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../../public/images/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../../public/styles/main.css">
+  <link rel="stylesheet" href="../../../public/styles/partials/forms.css">
+  <link rel="stylesheet" href="../../../public/styles/partials/register.css">
+</head>
+<body>
+  <div id="container">
+    <div class="welcome-container">
+      <div class="welcome-title">
+        <strong>Bem-vindo!</strong>
+      </div>
+      <div class="welcome-text">
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; Para começar, crie uma conta agora mesmo. Se você já possui uma conta, basta fazer o login, clicando no botão abaixo.</p>
+      </div>
+      <div class="welcome-button">
+        <button type="button" class="button-login">Login</button>
+      </div>
+    </div>
+    <div class="form-container" id="form-container">
+      <div class="welcome-form">
+      <strong>Criar uma conta</strong>
+      <form id="form" method="POST">
+        <div class="name">
+          <img src="../../../public/images/icons/name.png" alt="Name">
+          <input type="name" name="name" placeholder="Nome" required>
+        </div>
+        <div class="email">
+          <img src="../../../public/images/icons/email.png" alt="Email">
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="password">
+          <img src="../../../public/images/icons/password.png" alt="Senha">
+          <input type="password" name="password" placeholder="Senha" required>
+        </div>
+        <div class="confirm-password">
+          <img src="../../../public/images/icons/confirm-password.png" alt="Confirmar senha">
+          <input type="password" name="confirm-password" placeholder="Confirmar senha" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
