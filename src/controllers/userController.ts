@@ -29,7 +29,7 @@ class UserController {
 
     user.password = undefined;
     
-    return response.status(201).json(user);
+    return response.status(201).redirect('/login');
   }
 }
 

@@ -37,9 +37,29 @@
   justify-content: center;
 }
 
-.welcome-button button {
+.welcome-button a {
+  background: var(--color-button-primary);
   width: 46.875%;
   height: 3.75rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-button-primary);
+  border-radius: 2rem;
+  margin-top: 10.86956%;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+.welcome-button a:hover {
+  transition: 0.5s;
+  background: var(--color-background);
+  border: 3px solid var(--color-button-primary);
+  color: var(--color-secondary);
 }
 
 #form-container {
