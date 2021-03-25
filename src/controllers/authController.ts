@@ -36,8 +36,8 @@ class AuthController {
     });
 
     user.password = undefined;
-
-    return response.status(201).redirect('/about');
+   
+    return response.status(201).cookie('access_token', 'Bearer ' + token, {httpOnly: true, secure: true}).redirect('/about');
   }
 }
 

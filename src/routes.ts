@@ -13,11 +13,14 @@ const authController = new AuthController();
 const mailController = new MailController();
 const resetController = new ResetController();
 
-router.get('/', pageLanding)
+router.get('/', pageLanding);
 router.post('/register', userController.create);
-router.get('/login', pageLogin)
+router.get('/login', pageLogin);
 router.post('/auth', authController.auth);
-router.get('/about', authMiddleware, pageAbout);
+router.get('/about', (req, res, next) => {
+  req.headers.authorization = req.cookies.access_token;
+  next();
+}, authMiddleware, pageAbout);
 router.post('/mail', mailController.mail);
 router.post('/reset', resetController.reset);
 
