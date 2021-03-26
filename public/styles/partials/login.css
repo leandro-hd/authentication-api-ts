@@ -34,3 +34,44 @@
 .register-forgot a:hover {
   color: var(--color-background);
 }
+
+@media (max-width: 1100px) {
+  #container {
+    height: 85%;
+    display: block;
+  }
+  
+  .logo-container {
+    width: 70%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto auto;
+  }
+
+  #form-container {
+    background: var(--color-primary);
+    border-radius: 1rem;
+    padding: 0 7.8125% 0 8.828125%;
+  }
+  
+  .register-forgot {
+    margin-top: 2.5rem;
+    padding-left: 0;
+    text-align: center;
+  }
+    
+  .register-forgot a:hover {
+    color: var(--color-secondary);
+  }
+}
+
+@media (max-width: 700px) {
+  .logo-container {
+    height: 35%;
+  }
+
+  #form-container {
+    height: 75%;
+  }
+}
