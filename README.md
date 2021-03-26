@@ -48,15 +48,15 @@ Criar uma conta - Desktop | Sobre - Desktop
 
 <h2 id="demo"> 🔗 Demonstração da aplicação </h2>
 
-<a href="https://authentication-api-ts.herokuapp.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+<a href="https://authentication-api-ts.herokuapp.com/">
+  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="https://authentication-api-ts.herokuapp.com/">
 </a>
 
 <br/>
 
 <h2 id="execute"> 🏁 Como Executar </h2>
 
-<h3> Pré-requisitos </3>
+<h3> Pré-requisitos </h3>
 
 <strong> Obrigatórios </strong>
 - Ter instalado em sua máquina o <strong>Node.js</strong>;
@@ -70,7 +70,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 
 - Clone o repositório;
 - No terminal, acesse a pasta do projeto, e execute na raíz o comando <code>yarn install</code>, para instalar todas as dependências; 
-- Crie um arquivo <code>.env</code> na raíz do projeto, e inclua os campos <code>HOST = Host do serviço de email</code>, <code>PORT_MAIL = Porta do serviço de email</code>, <code>USER = Nome do usuário no serviço de email</code>, <code>Senha = Senha do usuário no serviço de email</code>, <code>SECRET = Sua assinatura</code> e <code>MONGODB_URL = URL do banco de dados</code> (as variáveis de ambiente foram configuradas de acordo com as tecnologias utilizadas no projeto);
+- Crie um arquivo <code>.env</code> na raíz do projeto, e inclua os campos <code>HOST = Host do serviço de email</code>, <code>PORT_MAIL = Porta do serviço de email</code>, <code>USER = Nome do usuário no serviço de email</code>, <code>PASS = Senha do usuário no serviço de email</code>, <code>SECRET = Sua assinatura</code> e <code>MONGODB_URL = URL do banco de dados</code> (as variáveis de ambiente foram configuradas de acordo com as tecnologias utilizadas no projeto);
 - Inicie o servidor com <code>yarn dev</code>;
 
 <h3> Acessando a aplicação </h3>
@@ -102,6 +102,6 @@ As principais ferramentas usadas na construção do projeto foram:
 
 <h2 id="license"> 📝 Licença </h2>
 
-<p> Este projeto está sob a licença MIT. </p>
+<p> Este projeto está sob a <strong>licença MIT</strong>. </p>
 
 <img src="https://img.shields.io/github/license/leandro-hd/authentication-api-ts?style=for-the-badge" alt="License MIT">
