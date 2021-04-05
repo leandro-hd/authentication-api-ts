@@ -31,7 +31,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 
 <h2 id="status"> ✅ Status do projeto </h2>
 
-<p> 🚧 Em construção... 🚧 </p>
+<p> 💯 Finalizado. </p>
 
 <br/>
 
@@ -42,7 +42,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 - [x] Envio de e-mail com token;
 - [x] Redefinição de senha;
 - [x] Interface web;
-- [ ] Suporte mobile;
+- [x] Suporte mobile;
 
 <br/>
 
@@ -52,6 +52,7 @@ Criar uma conta - Desktop | Sobre - Desktop
   <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="https://authentication-api-ts.herokuapp.com/">
 </a>
 
+<br/>
 <br/>
 
 <h2 id="execute"> 🏁 Como Executar </h2>
@@ -69,7 +70,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 <h3> Rodando o servidor </h3>
 
 - Clone o repositório;
-- No terminal, acesse a pasta do projeto, e execute na raíz o comando <code>yarn install</code>, para instalar todas as dependências; 
+- No terminal, acesse a pasta do projeto, e execute na raíz o comando <code>yarn add</code>, para instalar todas as dependências; 
 - Crie um arquivo <code>.env</code> na raíz do projeto, e inclua os campos <code>HOST = Host do serviço de email</code>, <code>PORT_MAIL = Porta do serviço de email</code>, <code>USER = Nome do usuário no serviço de email</code>, <code>PASS = Senha do usuário no serviço de email</code>, <code>SECRET = Sua assinatura</code> e <code>MONGODB_URL = URL do banco de dados</code> (as variáveis de ambiente foram configuradas de acordo com as tecnologias utilizadas no projeto);
 - Inicie o servidor com <code>yarn dev</code>;
 
