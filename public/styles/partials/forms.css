@@ -164,7 +164,7 @@ button:hover {
 @media (max-width: 1100px) {
   .form-container {
     width: 100%;
-    height: 100%;
+    height: 45rem;
   }
   
   .form-container strong {
@@ -182,6 +182,8 @@ button:hover {
   
   .name {
     margin: 10.86956% auto 0 auto;
+    width: 90%;
+    height: 4rem;
   }
   
   .name:hover {
@@ -191,6 +193,8 @@ button:hover {
   
   .email {
     margin: 7.5% auto 0 auto;
+    width: 90%;
+    height: 4rem;
   }
   
   .email:hover {
@@ -200,6 +204,8 @@ button:hover {
   
   .password {
     margin: 7.5% auto 0 auto;
+    width: 90%;
+    height: 4rem;
   }
   
   .password:hover {
@@ -209,6 +215,8 @@ button:hover {
  
   .confirm-password {
     margin: 7.5% auto 0 auto;
+    width: 90%;
+    height: 4rem;
   }
   
   .confirm-password:hover {
@@ -218,6 +226,7 @@ button:hover {
   
   button {
     margin: 10.86956% auto 5% 13.5%;
+    height: 4rem;
   }
   
   button:hover {
@@ -236,6 +245,7 @@ button:hover {
 
   .name {
     margin: 10% auto 0 auto;
+    width: 100%;
   }
 
   .name input {
@@ -244,6 +254,7 @@ button:hover {
 
   .email {
     margin: 10% auto 0 auto;
+    width: 100%;
   }
 
   .email input {
@@ -252,6 +263,7 @@ button:hover {
 
   .password {
     margin: 10% auto 0 auto;
+    width: 100%;
   }
 
   .password input {
@@ -260,6 +272,7 @@ button:hover {
 
   .confirm-password {
     margin: 10% auto 0 auto;
+    width: 100%;
   }
 
   .confirm-password input {

@@ -19,6 +19,7 @@
 
 .logo-container img {
   width: 92.592%;
+  height: 92.592%;
 }
 
 .register-forgot {
@@ -39,6 +40,8 @@
   #container {
     height: 85%;
     display: block;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   
   .logo-container {
@@ -51,7 +54,6 @@
 
   #form-container {
     background: var(--color-primary);
-    border-radius: 1rem;
     padding: 0 7.8125% 0 8.828125%;
   }
   
@@ -69,9 +71,5 @@
 @media (max-width: 700px) {
   .logo-container {
     height: 35%;
-  }
-
-  #form-container {
-    height: 75%;
   }
 }
