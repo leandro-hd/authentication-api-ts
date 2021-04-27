@@ -18,7 +18,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 :------------------------:|:---------------:
 ![](https://github.com/leandro-hd/authentication-api-ts/blob/master/assets/desktop/register.JPG) | ![](https://github.com/leandro-hd/authentication-api-ts/blob/master/assets/desktop/about.JPG)
 
-<p align="center"> Uma API construída para autenticar e validar os usuários registrados em um banco de dados. </p>
+<p align="center"> Uma aplicação construída para autenticar e validar os usuários registrados em um banco de dados. </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/leandro-hd/authentication-api-ts?style=for-the-badge" alt="License MIT"> &nbsp;
@@ -70,7 +70,7 @@ Criar uma conta - Desktop | Sobre - Desktop
 <h3> Rodando o servidor </h3>
 
 - Clone o repositório;
-- No terminal, acesse a pasta do projeto, e execute na raíz o comando <code>yarn add</code>, para instalar todas as dependências; 
+- No terminal, acesse a pasta do projeto, e execute na raíz o comando <code>yarn install</code>, para instalar todas as dependências; 
 - Crie um arquivo <code>.env</code> na raíz do projeto, e inclua os campos <code>HOST = Host do serviço de email</code>, <code>PORT_MAIL = Porta do serviço de email</code>, <code>USER = Nome do usuário no serviço de email</code>, <code>PASS = Senha do usuário no serviço de email</code>, <code>SECRET = Sua assinatura</code> e <code>MONGODB_URL = URL do banco de dados</code> (as variáveis de ambiente foram configuradas de acordo com as tecnologias utilizadas no projeto);
 - Inicie o servidor com <code>yarn dev</code>;
 
@@ -95,9 +95,17 @@ As principais ferramentas usadas na construção do projeto foram:
 
 <h2 id="author"> ✏️ Autor </h2>
 
-<p> Feito por <strong>Leandro Dias</strong> 👋. </p>
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=for-the-badge&logo=Github&logoColor=white&link=https://github.com/leandro-hd)](https://github.com/leandro-hd) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:leandrohg2003@gmail.com)](mailto:leandrohg2003@gmail.com)
+<p> Feito por <strong>Leandro Dias</strong> 👋. <br/> <br/>
+  <a href="https://www.linkedin.com/in/leandro-hd/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://www.github.com/leandro-hd/">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:leandrohg2003@gmail.com" alt="Gmail"/>
+</p>
 
 <br/>
 
